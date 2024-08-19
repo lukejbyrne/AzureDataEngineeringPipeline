@@ -16,12 +16,12 @@ The architecture of the project involves the following components:
 ![Architecture Diagram](https://github.com/lukejbyrne/tokyo-olympic-azure-data-engineering-project/blob/main/AzureDataEngineer_TokyoOlympics.png)
 
 ## Technologies Used
-- **Databricks**: Cloud-based platform for data engineering and machine learning.
-- **Apache Spark**: Open-source unified analytics engine for large-scale data processing.
-- **Azure Data Lake Storage (ADLS)**: Scalable and secure data lake for high-performance analytics.
-- **PySpark**: Python API for Spark, used for performing data processing tasks.
 - **Terraform**: Infrastructure as Code (IaC) tool used for provisioning infrastructure.
 - **Azure Data Factory**: Data integration service for creating data pipelines.
+- **Azure Data Lake Storage (ADLS)**: Scalable and secure data lake for high-performance analytics.
+- **Databricks**: Cloud-based platform for data engineering and machine learning.
+- **Apache Spark**: Open-source unified analytics engine for large-scale data processing.
+- **PySpark**: Python API for Spark, used for performing data processing tasks.
 
 ## Data Sources
 Source: [Kaggle Tokyo Olympics Dataset](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
