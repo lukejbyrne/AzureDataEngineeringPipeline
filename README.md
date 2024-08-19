@@ -15,4 +15,4 @@ Design:
 I also created this infrastructure in Terraform for improved infrastructure management, given more time it would be sensible to add an AzureDevOps pipeline for the IaC, however this is not within the scope of the project.
 
 Archtitecture:
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/lukejbyrne/tokyo-olympic-azure-data-engineering-project/blob/main/AzureDataEngineer_TokyoOlympics.png)
