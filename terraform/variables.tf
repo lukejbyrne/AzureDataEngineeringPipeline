@@ -5,3 +5,8 @@ variable tags {
     "source": "terraform"
   }
 }
+
+variable "sql_administrator_login_password" {
+  type      = string
+  sensitive = true
+}

@@ -45,7 +45,7 @@ resource "azurerm_synapse_workspace" "sw" {
   location                             = azurerm_resource_group.rg.location
   storage_data_lake_gen2_filesystem_id = azurerm_storage_data_lake_gen2_filesystem.dl2.id
   sql_administrator_login              = "sqladminuser"
-  sql_administrator_login_password     = "H@Sh1CoR3!"
+  sql_administrator_login_password     = var.sql_administrator_login_password
 
   tags = var.tags
 }
